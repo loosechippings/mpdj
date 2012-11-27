@@ -6,7 +6,8 @@ require "rexml/document"
 require "socket"
 include REXML
 
-KEY="28f974793c22364fd7ecbb9cd77815ba"
+#"28f974793c22364fd7ecbb9cd77815ba"
+KEY=ENV['LFM_KEY']
 
 ADDRESS="http://ws.audioscrobbler.com/2.0/"
 
